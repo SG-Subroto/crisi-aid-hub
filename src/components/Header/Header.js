@@ -8,7 +8,7 @@ const Header = () => {
     const { logoutUser } = useAuth();
     return (
         <div>
-            <nav className="bg-white border-gray-200 py-6 border-b-2">
+            <nav className="bg-white border-gray-200 py-2 border-b-2">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">

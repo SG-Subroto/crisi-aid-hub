@@ -17,6 +17,9 @@ import DetailsActiveEnrollEvent from './pages/DetailsActiveEnrollEvent/DetailsAc
 import DonorDashboard from './pages/DonorDashboard/DonorDashboard';
 import AllEvents from './pages/AllEvents/AllEvents';
 import OrganizationDashboard from './pages/OrganizationDashboard/OrganizationDashboard';
+import CreateEvent from './pages/CreateEvent/CreateEvent'
+import AddReliefReceieved from './pages/AddReliefReceieved/AddReliefReceieved';
+
 
 function App() {
   return (
@@ -35,6 +38,10 @@ function App() {
               <Route exact path="/organization" element={<OrganizationDashboard />}>
               </Route>
               <Route path={`organization/events`} element={<AllEvents />}>
+              </Route>
+              <Route path={`organization/eventcreate`} element={<CreateEvent />}>
+              </Route>
+              <Route path={`organization/addpeople`} element={<AddReliefReceieved />}>
               </Route>
             </Route>
             {/* autentication */}

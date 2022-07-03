@@ -79,7 +79,6 @@ const Organization = () => {
                                 <>
                                     <MenuItem icon={<BsFillCartFill />}> <Link activeStyle={activeStyle} to={`admin/users`}>Manage Event</Link></MenuItem>
                                     <MenuItem icon={<BsFillCartFill />}> <Link activeStyle={activeStyle} to={`admin/make-admin`}>Make Volunteer</Link></MenuItem>
-                                    <MenuItem icon={<BsFillCartFill />}> <Link activeStyle={activeStyle} to={`admin/make-teacher`}>Make Teacher</Link></MenuItem>
                                     <MenuItem icon={<FaUserTie />}> <Link activeStyle={activeStyle} to={`admin/add-tutor`}>Create Event</Link></MenuItem>
                                     <MenuItem icon={<BsFillInboxesFill />}> <Link activeStyle={activeStyle} to={`admin/manage-tutor-ads`}>Manage Event</Link></MenuItem>
                                     <MenuItem icon={<BsFillInboxesFill />}> <Link activeStyle={activeStyle} to={`admin/manage-tutor-books`}>Relief Receiver</Link></MenuItem>
